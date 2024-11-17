@@ -1,193 +1,873 @@
-<!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Almujtba Suliman Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Almujtba Suliman - Data Alchemist</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Inter:wght@400;600;800&display=swap');
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+        :root {
+            --primary-color: #00f5d4;
+            --secondary-color: #7b2cbf;
+            --accent-color: #ff006e;
+            --bg-color: #0a192f;
+            --text-color: #e2e8f0;
+            --card-bg: rgba(17, 34, 64, 0.7);
+        }
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>Almujtba Suliman</h1>
-						<p>Leveraging a strong foundation in Engineering and a passion for Industry 4.0, I am an aspiring Data Analyst with proficiency in Python, SQL, Power BI, and Statistical Analysis, committed to driving excellence through data-driven solutions <a herf="https://www.linkedin.com/in/almujtba-suliman-13a4a5227/">@AlmujtbaSuliman</a>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">Portfolio</a>
-					</header>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">Projects</a></li>
-					</nav>
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
 
-				<!-- Main -->
-					<div id="main">
+        ::-webkit-scrollbar-track {
+            background: var(--bg-color);
+        }
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<h2><a href="https://github.com/Dsmujtba/PortfolioProjects/blob/main/Maximizing%20Test%20Completion%20Rates%20for%20Dogs%20Behavioral%20Data.sql">Data Analysis in MySQL<br /></h2>
-									<p>In this project we transformed raw dog behavioral data from over 1.5 million Dognition tests into actionable marketing insights.</p>
-								</header>
-								<a href="https://github.com/Dsmujtba/PortfolioProjects/blob/main/Maximizing%20Test%20Completion%20Rates%20for%20Dogs%20Behavioral%20Data.sql" class="image main"><img src="https://mydoglikes.com/wp-content/uploads/2016/12/Header.png" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="https://github.com/Dsmujtba/PortfolioProjects/blob/main/Maximizing%20Test%20Completion%20Rates%20for%20Dogs%20Behavioral%20Data.sql" class="button large">View Project</a></li>
-								</ul>
-							</article>
+        ::-webkit-scrollbar-thumb {
+            background: var(--primary-color);
+            border-radius: 4px;
+        }
 
-						<!-- Posts -->
-							<section class="posts">
-								
-								<article>
-									<article>
-										<header>
-										
-											<h2><a href="https://github.com/Dsmujtba/PortfolioProjects/blob/main/Credit_Card_Defaults.pdf">Power BI Dashboard </a></h2>
-										</header>
-										<a href="https://github.com/Dsmujtba/PortfolioProjects/blob/main/Credit_Card_Defaults.pdf" class="image fit"><img src="https://techsbcn.com/wp-content/uploads/2021/11/power-bi-cover-2.jpg" alt="" /></a>
-										<p>In this project we investigated potential causes of credit card defaults using a publicly available dataset by leveraging Power BI's data visualization capabilities, .</p>
-										<ul class="actions special">
-											<li><a href="https://github.com/Dsmujtba/PortfolioProjects/blob/main/Credit_Card_Defaults.pdf" class="button">View Project</a></li>
-										</ul>
-									</article>
-											</article>
-								<article>
-									<header>
-										
-										<h2><a href="https://github.com/Dsmujtba/PortfolioProjects/blob/main/Logistic%20Regression%20for%20Customer%20Churn%20Analysis.ipynb">Customer Churn Ananlysis in python<br />
-										</a></h2>
-									</header>
-									<a href="https://github.com/Dsmujtba/PortfolioProjects/blob/main/Logistic%20Regression%20for%20Customer%20Churn%20Analysis.ipynb" class="image fit"><img src="https://miro.medium.com/v2/resize:fit:844/0*LCj4rdqrwtOR1aV1.png" alt="" /></a>
-									<p>In this project tackles customer churn prediction in a telecommunications company. It utilizes Logistic Regression to analyze factors like contract type and monthly charges.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/Dsmujtba/PortfolioProjects/blob/main/Logistic%20Regression%20for%20Customer%20Churn%20Analysis.ipynb" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-										<h2><a href="https://github.com/Dsmujtba/PortfolioProjects/blob/main/Clustering%20using%20K-Means%20-%20Customer%20Segmentation.ipynb">Customer Segmentation Analysis in Python<br />
-										</a></h2>
-									</header>
-									<a href="https://github.com/Dsmujtba/PortfolioProjects/blob/main/Clustering%20using%20K-Means%20-%20Customer%20Segmentation.ipynb" class="image fit"><img src="https://www.farinasmarketing.com/wp-content/uploads/2022/01/Customer-segmentation-for-effective-B2B-business-industry.jpg" alt="" /></a>
-									<p>In this project we identified distinct customer segments within a dataset. This unsupervised learning technique revealed hidden patterns in customer data, allowing us to group similar customers together.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/Dsmujtba/PortfolioProjects/blob/main/Clustering%20using%20K-Means%20-%20Customer%20Segmentation.ipynb" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										
-										<h2><a href="https://github.com/Dsmujtba/PortfolioProjects/blob/main/Logistic%20Regression%20for%20Customer%20Churn%20Analysis.ipynb">Customer Churn Ananlysis in python<br />
-										</a></h2>
-									</header>
-									<a href="https://github.com/Dsmujtba/PortfolioProjects/blob/main/Logistic%20Regression%20for%20Customer%20Churn%20Analysis.ipynb" class="image fit"><img src="https://miro.medium.com/v2/resize:fit:844/0*LCj4rdqrwtOR1aV1.png" alt="" /></a>
-									<p>In this project tackles customer churn prediction in a telecommunications company. It utilizes Logistic Regression to analyze factors like contract type and monthly charges.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/Dsmujtba/PortfolioProjects/blob/main/Logistic%20Regression%20for%20Customer%20Churn%20Analysis.ipynb" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-									
-										<h2><a href="https://github.com/Dsmujtba/PortfolioProjects/blob/main/Rain%20Prediction%20in%20Australia%20Using%20Different%20Classifiers%20.ipynb">Rain Prediction in Australia Using Python </a></h2>
-									</header>
-									<a href="https://github.com/Dsmujtba/PortfolioProjects/blob/main/Rain%20Prediction%20in%20Australia%20Using%20Different%20Classifiers%20.ipynb" class="image fit"><img src="https://live-production.wcms.abc-cdn.net.au/4e532ce5b539b16040753a1d2334c4b1?src" alt="" /></a>
-									<p>In this project we used machine learning to build a weather prediction model for Australian rain patterns. Analyzed historical data to predict tomorrow's rain using various classification algorithms.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/Dsmujtba/PortfolioProjects/blob/main/Rain%20Prediction%20in%20Australia%20Using%20Different%20Classifiers%20.ipynb" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-									
-										<h2><a href="https://github.com/Dsmujtba/PortfolioProjects/blob/main/COVID-19%20Exploratory%20Data%20Analysis.sql">COVID-19 Exploratory Data Analysis in SQL </a></h2>
-									</header>
-									<a href="https://github.com/Dsmujtba/PortfolioProjects/blob/main/COVID-19%20Exploratory%20Data%20Analysis.sql" class="image fit"><img src="https://www.fhi.no/globalassets/dokumenterfiler/tema/koronavirussykdom/2871--cdc-alissa-eckert-ms_modifisert.png?preset=leftcolumn&width=736&rmode=crop" alt="" /></a>
-									<p>In this project SQL queries are used to analyze a Covid Deaths dataset. It explores mortality rates, caseloads, vaccination progress, and how these factors vary by location and continent.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/Dsmujtba/PortfolioProjects/blob/main/COVID-19%20Exploratory%20Data%20Analysis.sql" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										
-										<h2><a href="https://github.com/Dsmujtba/PortfolioProjects/blob/main/World%20Layoffs%20Data%20Cleaning.sql">World layoffs data cleaning in SQLr</a></h2>
-									</header>
-									<a href="https://github.com/Dsmujtba/PortfolioProjects/blob/main/World%20Layoffs%20Data%20Cleaning.sql" class="image fit"><img src="https://media.licdn.com/dms/image/D5612AQH7GePWoHB_aw/article-cover_image-shrink_600_2000/0/1672423167547?e=2147483647&v=beta&t=A19Ci-GeHek48nQitnydqGa3eXr9r8vSx-0IJJxByLI" alt="" /></a>
-									<p>In this project we tackled a messy "layoffs" dataset, employing a four-step process: identifying and purging duplicates, standardizing formats, filling in missing values, and removing records with unusable data.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/Dsmujtba/PortfolioProjects/blob/main/World%20Layoffs%20Data%20Cleaning.sql" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-									
-										<h2><a href="https://github.com/Dsmujtba/PortfolioProjects/blob/main/WebScraping%20-%20Extracting%20and%20Visualizing%20Stock%20Data.ipynb">Web scrapping stock data in python</a></h2>
-									</header>
-									<a href="https://github.com/Dsmujtba/PortfolioProjects/blob/main/WebScraping%20-%20Extracting%20and%20Visualizing%20Stock%20Data.ipynb" class="image fit"><img src="https://png.pngtree.com/thumb_back/fw800/background/20221122/pngtree-stock-market-chart-for-business-growth-and-success-photo-image_40986840.jpg" alt="" /></a>
-									<p>
-										In this project we extracted stock data from Tesla and GameStop using yfinance offering insights into historical prices and revenue trends.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/Dsmujtba/PortfolioProjects/blob/main/WebScraping%20-%20Extracting%20and%20Visualizing%20Stock%20Data.ipynb" class="button">View Project</a></li>
-									</ul>
-								</article>
-							</section>
+        /* Animated Background */
+        .background-animation {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: linear-gradient(45deg, var(--bg-color) 0%, #1a365d 100%);
+        }
 
+        .background-animation::before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, transparent 20%, var(--bg-color) 70%);
+            opacity: 0.7;
+            animation: pulse 8s infinite;
+        }
 
-						<section class="split contact">
-							<section class="alt">
-								<h3>Location</h3>
-								<p>Via Paolo Borsellino, 42, 10138, Torino, Itlay</p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="#">+(39) 33395171361</a></p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">Almujtbaizz98@outlook.com</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="https://www.linkedin.com/in/almujtba-suliman-13a4a5227/" class="icon brands alt fa-linkedin"><span class="label">linkedIn</span></a></li>
-									<li><a href="https://github.com/Dsmujtba/PortfolioProjects" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
 
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-					</div>
+        /* Header Styles */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            background: rgba(10, 25, 47, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(226, 232, 240, 0.1);
+        }
 
-			</div>
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+        .logo {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1.5rem;
+            color: var(--primary-color);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
 
-	</body>
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            color: var(--text-color);
+            text-decoration: none;
+            font-size: 1rem;
+            transition: color 0.3s ease;
+            position: relative;
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--primary-color);
+            transition: width 0.3s ease;
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-content {
+            max-width: 800px;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero h1 {
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            font-weight: 800;
+            margin-bottom: 1rem;
+            background: linear-gradient(45deg, var(--primary-color), var(--accent-color));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            opacity: 0;
+            animation: fadeInUp 1s ease forwards;
+        }
+
+        .hero p {
+            font-size: clamp(1.1rem, 2vw, 1.3rem);
+            margin-bottom: 2rem;
+            opacity: 0;
+            animation: fadeInUp 1s ease forwards 0.3s;
+        }
+
+        /* Projects Section */
+        .projects {
+            padding: 6rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            text-align: center;
+            color: var(--primary-color);
+        }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .project-card {
+            background: var(--card-bg);
+            border-radius: 1rem;
+            padding: 2rem;
+            transition: transform 0.3s ease;
+            border: 1px solid rgba(226, 232, 240, 0.1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .project-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            z-index: -1;
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .project-card:hover::before {
+            opacity: 0.1;
+        }
+
+        .project-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+        }
+
+        /* Skills Section */
+        .skills {
+            padding: 6rem 2rem;
+            background: rgba(17, 34, 64, 0.5);
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .skill-card {
+            background: var(--card-bg);
+            border-radius: 1rem;
+            padding: 2rem;
+            text-align: center;
+            border: 1px solid rgba(226, 232, 240, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .skill-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+        }
+
+        /* Contact Section */
+        .contact {
+            padding: 6rem 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .contact form {
+            background: var(--card-bg);
+            padding: 3rem;
+            border-radius: 1rem;
+            border: 1px solid rgba(226, 232, 240, 0.1);
+        }
+
+        .form-group {
+            margin-bottom: 2rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: var(--primary-color);
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 1rem;
+            background: rgba(226, 232, 240, 0.05);
+            border: 1px solid rgba(226, 232, 240, 0.1);
+            border-radius: 0.5rem;
+            color: var(--text-color);
+            font-family: 'Inter', sans-serif;
+            transition: border-color 0.3s ease;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--primary-color);
+        }
+        
+
+        button {
+            background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+            color: var(--bg-color);
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 0.5rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            .projects-grid,
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .contact form {
+                padding: 2rem;
+            }
+        }
+            .projects-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+                gap: 2rem;
+                padding: 0 1rem;
+            }
+        
+            .project-card {
+                background: var(--card-bg);
+                border-radius: 1rem;
+                overflow: hidden;
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+                border: 1px solid rgba(226, 232, 240, 0.1);
+            }
+        
+            .project-image {
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+                border-bottom: 1px solid rgba(226, 232, 240, 0.1);
+            }
+        
+            .project-content {
+                padding: 1.5rem;
+            }
+        
+            .project-links {
+                display: flex;
+                gap: 1rem;
+                margin: 1rem 0;
+            }
+        
+            .project-link {
+                color: var(--primary-color);
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+                transition: color 0.3s ease;
+            }
+        
+            .project-link:hover {
+                color: var(--accent-color);
+            }
+        
+            .project-tech {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 0.5rem;
+                margin-top: 1rem;
+            }
+        
+            .project-tech span {
+                background: rgba(0, 245, 212, 0.1);
+                color: var(--primary-color);
+                padding: 0.25rem 0.75rem;
+                border-radius: 1rem;
+                font-size: 0.875rem;
+            }
+        
+            /* Blog Styles */
+            .blog {
+                padding: 6rem 2rem;
+                background: rgba(17, 34, 64, 0.5);
+            }
+        
+            .blog-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                gap: 2rem;
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+        
+            .blog-card {
+                background: var(--card-bg);
+                border-radius: 1rem;
+                overflow: hidden;
+                transition: transform 0.3s ease;
+                border: 1px solid rgba(226, 232, 240, 0.1);
+            }
+        
+            .blog-card:hover {
+                transform: translateY(-5px);
+            }
+        
+            .blog-image {
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+            }
+        
+            .blog-content {
+                padding: 1.5rem;
+            }
+        
+            .blog-meta {
+                display: flex;
+                gap: 1rem;
+                font-size: 0.875rem;
+                color: var(--primary-color);
+                margin-bottom: 1rem;
+            }
+        
+            .blog-meta span {
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+            }
+        
+            .read-more {
+                display: inline-flex;
+                align-items: center;
+                gap: 0.5rem;
+                color: var(--primary-color);
+                text-decoration: none;
+                margin-top: 1rem;
+                transition: color 0.3s ease;
+            }
+        
+            .read-more:hover {
+                color: var(--accent-color);
+            }
+        
+            @media (max-width: 768px) {
+                .projects-grid,
+                .blog-grid {
+                    grid-template-columns: 1fr;
+                }
+            }
+    </style>
+</head>
+<body>
+    <div class="background-animation"></div>
+    
+    <header>
+        <nav>
+            <a href="#" class="logo">
+                <i class="fas fa-database"></i>
+                AS
+            </a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="about">
+            <div class="hero-content">
+                <h1>Almujtba Suliman</h1>
+                <p>Data Alchemist | Transforming Complex Data into Actionable Insights</p>
+                <div class="hero-buttons">
+                    <button onclick="window.location.href='#projects'">View My Work</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+            <article class="project-card">
+                <img src="https://shelf.io/wp-content/uploads/2024/04/how-to-use-ai-for-predictive-analytics-and-smarter-decision-making-_3.png" alt="Predictive Analytics Engine" class="project-image">
+                <div class="project-content">
+                    <i class="fas fa-brain skill-icon"></i>
+                    <h3>Rain Prediction in Australia Using Python</h3>
+                    <p>In this project we used machine learning to build a weather prediction model for Australian rain patterns. Analyzed historical data to predict tomorrow's rain using various classification algorithms.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Dsmujtba/PortfolioProjects/blob/main/Rain%20Prediction%20in%20Australia%20Using%20Different%20Classifiers%20.ipynb" class="project-link"><i class="fab fa-github"></i> View Code</a>
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    </div>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>TensorFlow</span>
+                        <span>AWS</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <img src="https://news.mit.edu/sites/default/files/images/202211/MIT-Neural-Networks-01.gif" alt="Neural Network Framework" class="project-image">
+                <div class="project-content">
+                    <i class="fas fa-network-wired skill-icon"></i>
+                    <h3>Neural Network Framework</h3>
+                    <p>Custom deep learning framework optimized for processing large-scale financial datasets with real-time analysis capabilities.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> View Code</a>
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    </div>
+                    <div class="project-tech">
+                        <span>PyTorch</span>
+                        <span>CUDA</span>
+                        <span>Docker</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <img src="https://d1a3f4spazzrp4.cloudfront.net/kepler.gl/website/hero/kepler.gl-hexagon.png" alt="Data Visualization Suite" class="project-image">
+                <div class="project-content">
+                    <i class="fas fa-chart-scatter skill-icon"></i>
+                    <h3>Data Visualization Suite</h3>
+                    <p>Interactive 3D visualization platform enabling stakeholders to explore complex datasets through immersive interfaces.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> View Code</a>
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    </div>
+                    <div class="project-tech">
+                        <span>D3.js</span>
+                        <span>WebGL</span>
+                        <span>React</span>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+        <!-- Blog Section -->
+    <section class="blog" id="blog">
+        <h2 class="section-title">Latest Insights</h2>
+        <div class="blog-grid">
+            <article class="blog-card">
+                <img src="/api/placeholder/400/250" alt="Machine Learning Trends" class="blog-image">
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <span><i class="far fa-calendar"></i> Jan 15, 2024</span>
+                        <span><i class="far fa-clock"></i> 5 min read</span>
+                    </div>
+                    <h3>The Future of Machine Learning in 2024</h3>
+                    <p>Exploring emerging trends and breakthrough technologies in the machine learning landscape...</p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+            <article class="blog-card">
+                <img src="/api/placeholder/400/250" alt="Data Analysis" class="blog-image">
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <span><i class="far fa-calendar"></i> Jan 28, 2024</span>
+                        <span><i class="far fa-clock"></i> 4 min read</span>
+                    </div>
+                    <h3>Advanced Data Analysis Techniques</h3>
+                    <p>Deep dive into modern data analysis methodologies and their practical applications...</p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+            <article class="blog-card">
+                <img src="/api/placeholder/400/250" alt="AI Ethics" class="blog-image">
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <span><i class="far fa-calendar"></i> Feb 5, 2024</span>
+                        <span><i class="far fa-clock"></i> 6 min read</span>
+                    </div>
+                    <h3>Ethics in AI Development</h3>
+                    <p>Examining the crucial role of ethical considerations in artificial intelligence...</p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+        <section class="skills" id="skills">
+            <h2 class="section-title">Technical Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fas fa-brain skill-icon"></i>
+                    <h3>Machine Learning</h3>
+                    <p>Deep Learning, Neural Networks, NLP</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database skill-icon"></i>
+                    <h3>Big Data</h3>
+                    <p>Hadoop, Spark, Data Lakes</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-chart-line skill-icon"></i>
+                    <h3>Analytics</h3>
+                    <p>Statistical Analysis, Predictive Modeling</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-code skill-icon"></i>
+                    <h3>Programming</h3>
+                    <p>Python, R, SQL, TensorFlow</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2 class="section-title">Let's Connect</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <script>
+        // Smooth scrolling
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+
+    // Form submission
+    document.getElementById('contact-form').addEventListener('submit', function(e) {
+        e.preventDefault();
+        // Add your form submission logic here
+        alert('Thanks for your message! I\'ll get back to you soon.');
+        this.reset();
+    });
+
+    // Intersection Observer for fade-in animations
+    const observerOptions = {
+        threshold: 0.1
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.style.opacity = '1';
+                entry.target.style.transform = 'translateY(0)';
+            }
+        });
+    }, observerOptions);
+
+    // Observe all project cards and skill cards for animations
+    document.querySelectorAll('.project-card, .skill-card').forEach(element => {
+        element.style.opacity = '0';
+        element.style.transform = 'translateY(20px)';
+        observer.observe(element);
+    });
+
+    // Header scroll effect
+    const header = document.querySelector('header');
+    let lastScroll = 0;
+
+    window.addEventListener('scroll', () => {
+        const currentScroll = window.pageYOffset;
+        
+        // Add/remove header background
+        if (currentScroll > 50) {
+            header.style.background = 'rgba(10, 25, 47, 0.95)';
+            header.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.3)';
+        } else {
+            header.style.background = 'transparent';
+            header.style.boxShadow = 'none';
+        }
+        
+        lastScroll = currentScroll;
+    });
+
+    // Typing effect for hero section
+    const heroText = "Data Alchemist | Transforming Complex Data into Actionable Insights";
+    const heroElement = document.querySelector('.hero p');
+    let i = 0;
+
+    function typeWriter() {
+        if (i < heroText.length) {
+            heroElement.textContent += heroText.charAt(i);
+            i++;
+            setTimeout(typeWriter, 50);
+        }
+    }
+
+    // Start typing effect when page loads
+    window.addEventListener('load', () => {
+        heroElement.textContent = '';
+        setTimeout(typeWriter, 1000);
+    });
+
+    // Project hover effects
+    document.querySelectorAll('.project-card').forEach(card => {
+        card.addEventListener('mouseenter', (e) => {
+            card.style.transform = 'translateY(-10px) scale(1.02)';
+            card.style.transition = 'all 0.3s ease';
+        });
+        
+        card.addEventListener('mouseleave', (e) => {
+            card.style.transform = 'translateY(0) scale(1)';
+        });
+    });
+
+    // Skills animation
+    document.querySelectorAll('.skill-icon').forEach(icon => {
+        icon.addEventListener('mouseenter', (e) => {
+            icon.style.transform = 'rotate(360deg) scale(1.2)';
+            icon.style.transition = 'all 0.5s ease';
+        });
+        
+        icon.addEventListener('mouseleave', (e) => {
+            icon.style.transform = 'rotate(0) scale(1)';
+        });
+    });
+
+    // Form input animations
+    document.querySelectorAll('.form-group input, .form-group textarea').forEach(input => {
+        input.addEventListener('focus', (e) => {
+            e.target.parentElement.classList.add('focused');
+        });
+        
+        input.addEventListener('blur', (e) => {
+            if (e.target.value === '') {
+                e.target.parentElement.classList.remove('focused');
+            }
+        });
+    });
+
+    // Particle background effect
+    function createParticles() {
+        const particlesContainer = document.createElement('div');
+        particlesContainer.className = 'particles';
+        document.body.appendChild(particlesContainer);
+
+        for (let i = 0; i < 50; i++) {
+            const particle = document.createElement('div');
+            particle.className = 'particle';
+            particle.style.left = Math.random() * 100 + 'vw';
+            particle.style.animationDuration = (Math.random() * 3 + 2) + 's';
+            particle.style.animationDelay = Math.random() * 2 + 's';
+            particlesContainer.appendChild(particle);
+        }
+    }
+
+    // Initialize particles
+    createParticles();
+
+    // Performance optimization
+    let ticking = false;
+    window.addEventListener('scroll', () => {
+        if (!ticking) {
+            window.requestAnimationFrame(() => {
+                // Update animations based on scroll position
+                ticking = false;
+            });
+            ticking = true;
+        }
+    });
+    // Create particles on load
+    window.addEventListener('load', createParticles);
+</script>
+
+<!-- Footer Section -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-social">
+                <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="mailto:your.email@example.com">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+            <p class="footer-text">&copy; 2024 Almujtba Suliman. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Add the following CSS for the footer styles -->
+<style>
+    .footer {
+        background: rgba(17, 34, 64, 0.95);
+        padding: 2rem 0;
+        margin-top: 4rem;
+        border-top: 1px solid rgba(226, 232, 240, 0.1);
+    }
+
+    .footer-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 2rem;
+        text-align: center;
+    }
+
+    .footer-social {
+        margin-bottom: 1.5rem;
+    }
+
+    .footer-social a {
+        color: var(--text-color);
+        font-size: 1.5rem;
+        margin: 0 1rem;
+        transition: color 0.3s ease;
+    }
+
+    .footer-social a:hover {
+        color: var(--primary-color);
+    }
+
+    .footer-text {
+        color: var(--text-color);
+        opacity: 0.7;
+        font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+        .footer-social a {
+            margin: 0 0.5rem;
+        }
+    }
+</style>
+</body>
 </html>
